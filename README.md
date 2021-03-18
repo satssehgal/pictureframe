@@ -7,8 +7,8 @@ Simply create a folder called 'img' and place the docker-compose file in the sam
 Tested on raspberry pi zero, 3, 3B+, 4B and OSX
 
 
-`version: '3.3'
-
+```
+version: '3.3'
 services:
   picframe: 
     build: ./
@@ -17,5 +17,6 @@ services:
       - "5000:5000" 
     volumes: 
        - ./img:/app/static/images 
-    restart: always `
+    restart: always
+```
 
