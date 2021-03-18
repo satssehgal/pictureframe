@@ -13,7 +13,6 @@ docker-compose.yaml
 version: '3.3'
 services:
   picframe: 
-    build: ./
     image: satssehgal/pictureframe:latest 
     ports: 
       - "5000:5000" 
