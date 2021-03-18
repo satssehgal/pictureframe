@@ -1,4 +1,4 @@
-# pictureframe
+# Server Side Picture Frame Web App
 
 This is a very simple server side picture frame web application that you could use to host photos and display them on a computer, phone, or even hang a tablet on a wall and build a rotating image picture frame. 
 
@@ -6,7 +6,7 @@ Simply create a folder called 'img' and place the docker-compose file in the sam
 
 Tested on raspberry pi zero, 3, 3B+, 4B and OSX
 
-
+docker-compose.yaml
 ```
 version: '3.3'
 services:
