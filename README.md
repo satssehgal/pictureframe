@@ -8,6 +8,7 @@ Tested on raspberry pi zero, 3, 3B+, 4B and OSX
 
 
 `version: '3.3'
+
 services:
   picframe: 
     build: ./
