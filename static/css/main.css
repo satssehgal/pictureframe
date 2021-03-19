@@ -1,0 +1,15 @@
+
+.imgstyle{
+	width:1024px;
+	height:auto;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.thumb{
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
