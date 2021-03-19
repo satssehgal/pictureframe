@@ -6,7 +6,7 @@ Simply create a folder called 'img' and place the docker-compose file in the sam
 
 Download the files and run 'docker-compose up -d' and you're set. It will launch on your device at port 5000. Its a good idea to have a static ip for your host machine
 
-Tested on raspberry pi zero, 3, 3B+, 4B and Mac OSX
+Tested on raspberry pi zero, 3, 3B+, 4B and Mac Big Sur
 
 docker-compose.yaml
 ```
