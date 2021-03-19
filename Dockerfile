@@ -7,7 +7,7 @@ RUN apt-get install build-essential libssl-dev libffi-dev -y
 RUN pip install --upgrade setuptools
 WORKDIR /app
 ADD . /app
-RUN pip3 install -r req3.txt
+RUN pip3 install -r req.txt
 EXPOSE 5000
 ENTRYPOINT ["python3"]
 CMD ["wsgi.py"]
